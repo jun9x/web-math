@@ -12,9 +12,14 @@ export default function HomePage() {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 to-cyan-400 flex items-center justify-center shadow-lg shadow-indigo-500/20">
               <BrainCircuit className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-indigo-300">
-              {env.NEXT_PUBLIC_APP_NAME}
-            </span>
+            <div className="flex flex-col">
+              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-indigo-300">
+                {env.NEXT_PUBLIC_APP_NAME}
+              </span>
+              <span className="text-[11px] font-extrabold text-cyan-400 tracking-wider">
+                Học Toán Cùng Thầy Hoài 🎓
+              </span>
+            </div>
           </div>
           <div className="flex items-center gap-4">
             <Link
@@ -38,13 +43,13 @@ export default function HomePage() {
         <section className="relative py-24 md:py-32 overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-900/40 via-slate-900/0 to-slate-900" />
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-xs font-semibold uppercase tracking-wider mb-6">
-              <Sparkles className="w-4 h-4 text-cyan-400" /> Nền Tảng Dạy & Học Toán Lớp 8 Thế Hệ Mới
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-indigo-500/20 to-cyan-500/20 border border-cyan-500/30 text-cyan-300 text-xs font-extrabold uppercase tracking-wider mb-6 shadow-lg">
+              <Sparkles className="w-4 h-4 text-amber-400" /> Học Toán Cùng Thầy Hoài • GDPT 2018
             </div>
             <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 max-w-4xl mx-auto leading-tight">
               Đột phá tư duy Toán Lớp 8 cùng <br />
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-cyan-300 to-emerald-400">
-                Gia sư AI Socrates & GDPT 2018
+                Thầy Hoài & Gia sư AI Socrates
               </span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed">

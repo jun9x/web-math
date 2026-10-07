@@ -63,7 +63,7 @@ export default function LoginPage() {
             <BrainCircuit className="w-7 h-7 text-white" />
           </div>
           <h2 className="text-2xl font-bold text-white">Đăng nhập MathLab</h2>
-          <p className="text-sm text-slate-400 mt-1">Hệ thống Quản lý & Học tập Toán 8</p>
+          <p className="text-sm font-bold text-cyan-400 mt-1">✨ Học Toán Cùng Thầy Hoài ✨</p>
         </div>
 
         {/* Default Account Info Badge */}

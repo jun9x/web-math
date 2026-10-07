@@ -7,10 +7,10 @@ import { env } from "@/lib/env";
 const inter = Inter({ subsets: ["latin", "vietnamese"] });
 
 export const metadata: Metadata = {
-  title: `${env.NEXT_PUBLIC_APP_NAME} - Nền tảng Dạy và Học Toán Chuyên Nghiệp`,
+  title: `Học Toán Cùng Thầy Hoài - ${env.NEXT_PUBLIC_APP_NAME} | GDPT 2018`,
   description:
-    "Ứng dụng dạy và học Toán GDPT 2018 tích hợp Gia sư AI Socrates, ngân hàng bài tập tự động chấm và quản lý lớp học linh hoạt.",
-  keywords: ["Toán học", "Học toán online", "GDPT 2018", "MathLab", "Gia sư AI Socrates"],
+    "Ứng dụng Học Toán Cùng Thầy Hoài - Nền tảng dạy và học Toán Lớp 8 GDPT 2018 tích hợp Gia sư AI Socrates, ngân hàng bài tập tự động chấm và quản lý lớp học linh hoạt.",
+  keywords: ["Học Toán Cùng Thầy Hoài", "Thầy Hoài", "Toán Lớp 8", "Học toán online", "GDPT 2018", "MathLab", "Gia sư AI Socrates"],
 };
 
 export default function RootLayout({
